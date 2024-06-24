@@ -1,0 +1,20 @@
+﻿Element;code;order;uppercase;sep;definition
+ID;id;1;VERDADERO;_;identificador unico de regla
+DIMENSION;dimention;2;VERDADERO;_;"Dimensión aplicada a la regla: 
+- VAL : Validación
+- CON : Consistencia
+- COM : Completitud
+- UNI : Unicidad
+- OPO : Oportunidad
+- EXA : Exactitud"
+COLUMNAS;columns;3;VERDADERO;_;campos en los que aplica la regla
+CAPA;layer;4;VERDADERO;_;"Layer:
+- Bronce
+- Plata
+- Oro"
+DOMINIO;domain;5;VERDADERO;.;"""Dominio de la regla: 
+ - DQ : Data Quality Standard  
+- BR : Bussiness Rule 
+- DS : Data Security
+- TR : Testing Rule""		"
+VERSION;version;6;VERDADERO;;numero de version de la regla
